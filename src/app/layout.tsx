@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "@/styles/global.scss";
-
-const inter = Inter({ subsets: ["latin"] });
+import PrincipalHeader from "@/components/headers/PrincipalHeader";
+import { AnimatePresence } from "framer-motion";
 
 export const metadata: Metadata = {
   title: "ConsultorIA",
@@ -16,8 +16,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-       <link rel="icon" href="/image/logo.jpg" />
-      <body className={inter.className}>{children}</body>
+      <link rel="icon" href="/image/brand/icon.svg" />
+          <body >
+            <PrincipalHeader />
+            {children}
+          </body>
     </html>
   );
 }
