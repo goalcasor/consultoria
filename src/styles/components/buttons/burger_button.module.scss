@@ -28,8 +28,12 @@
 }
 
 .menuBars.open .btnBurger{
-    transform: rotate(-45deg);
+   /*  transform: rotate(-45deg); */
+    transform: translateY(-5px);
+
 }
 .menuBars.open .btnBurger::before{
-    transform: rotate(90deg);
+   /*  transform: rotate(90deg); */
+    transform: translateY(5px);
+
 } 

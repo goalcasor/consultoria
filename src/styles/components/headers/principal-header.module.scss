@@ -5,6 +5,9 @@
     justify-content: center;
     position: fixed;
     top: 0;
+    z-index: 1000;
+    background-color: #00000044;
+    backdrop-filter: blur(10px);
 }
 
 .principal_header_container{
@@ -38,7 +41,7 @@
 
 .menu_container_left, .menu_container_right{
     display: flex;
-    flex: 1;
+    flex: 4;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
@@ -47,6 +50,8 @@
 
 .menu_container_left{
     background-color: #fff;
+    flex: 8;
+
 }
 
 .menu_list{
