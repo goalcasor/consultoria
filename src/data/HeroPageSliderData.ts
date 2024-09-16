@@ -44,7 +44,7 @@ export const HeroPageSliderData_es = [
         id: 4,
         title: 'REVOLUCIONA TU MARKETING',
         titleSpan: 'CON IA ESTRATÉGICA',
-        image: '/image/hero_slide/1.png'
+        image: '/image/hero_slide/5.jpg'
     },
     {
         id: 5,
